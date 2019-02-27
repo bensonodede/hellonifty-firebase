@@ -1,0 +1,36 @@
+{
+  "name": "nifty",
+  "version": "1.0.0",
+  "description": "A nifty bot to help you ship your stuff.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./app/server.js",
+    "start": "nodemon ./app/server.js"
+  },
+  "keywords": [
+    "nifty",
+    "bot"
+  ],
+  "author": "Odede Benson J.",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "1.4.3",
+    "cors": "2.8.5",
+    "dialogflow": "^0.7.0",
+    "dialogflow-fulfillment": "^0.6.1",
+    "express": "^4.16.4",
+    "express-session": "1.15.6",
+    "firebase-admin": "^6.4.0",
+    "firestore-store": "1.0.0",
+    "graphql-yoga": "1.17.0",
+    "libphonenumber-js": "1.7.7",
+    "node-cron": "2.0.3",
+    "npm": "6.7.0",
+    "request": "^2.88.0",
+    "twilio": "^3.26.1",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.9"
+  }
+}
